@@ -1,0 +1,48 @@
+LPS: 331525.31
+LPS: 327654.83
+LPS: 330936.71
+LPS: 333827.90
+
+parallel
+LPS: 264617.28
+LPS: 265903.99
+LPS: 276136.41
+
+
+
+threaded
+LPS: 366670.84
+LPS: 360461.69
+LPS: 365572.00
+LPS: 361530.02
+
+move
+LPS: 352215.35
+LPS: 356731.39
+LPS: 345163.07
+LPS: 353235.15
+
+
+thread parallel
+LPS: 328810.13
+LPS: 329151.39
+LPS: 319181.08
+
+split changed
+575312.15
+574895.00
+574271.64
+569424.94
+
+
+
+render 
+mode			size		GPU	memory	FPS			instanced
+GL_LINES		fullscreen	84%	791		59.28			No
+GL_LINES		640x480		32%	716		59.28			No
+GL_LINE_LOOP	640x480		33%	715		59.83			No    
+GL_LINE_LOOP	fullscreen	84%	791		59.84			No    
+GL_LINE_LOOP	fullscreen	99%	791		13.34			Yes
+GL_LINE_LOOP	640x480		99%	714		16.68			Yes
+GL_LINES		640x480		99%	715		31.49			Yes
+GL_LINES		fullscreen	99%	791		24.72			Yes
